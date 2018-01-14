@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Abhinav Singh</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="assets/stylesheets">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Favicon-->
+  <link rel ="icon" href="as-logo-1200.png"
+</head>
+
+  <style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+  .w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+  .fa-anchor,.fa-coffee {font-size:200px}
+header{
+	background-image: url(assets/stylesheets/background.jpg);
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-indigo w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-padding-large w3-hover-white w3-large w3-indigo" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="http://greenskies.github.io" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="http://github.com/GreenSkies" target="_blank" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Github</a>
+    <a href="assets/Resume.pdf" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Resume</a>
+    <a href="assets/CWR/cwr.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Coursework and Readings</a>
+    <a href="assets/Projects/projects.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Projects</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-navblock w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a class="w3-padding-large" href="http://github.com/GreenSkies">Github</a>
+    <a class="w3-padding-large" href="assets/Resume.pdf">Resume</a>
+    <a class="w3-padding-large" href="assets/CWR/cwr.html">Coursework and Readings</a>
+    <a class="w3-padding-large" href="assets/Projects/projects.html">Projects</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class= "w3-padding-128 w3-margin-4">
+  <h1 class="w3-margin-80 w3-jumbo w3-center w3-text-white">Abhinav Singh</h1>
+  <p class="w3-xxlarge w3-center w3-text-white">Computer Science Student</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>About Me</h1>
+      <h5 class="w3-padding-22"></h5>
+
+      <p class="w3-text-grey">Hello, I am a computer science student, currently in my second year. I enjoy dabbling in all aspect of computer science. However, my favorite topics are artificial intellgence, mobile application development, and cyber security. Currently, I'm searching for an internship to enhance my knowledge in the field. Furthermore, I am open to any type of position that could improve my understanding of computer science. Aside from academics, I really enjoy playing basketball and usually will be playing a pick game at any chance I get. If not basketball, then it would probably be playing League of Legends with my friends. If you'd like to know more, check out my resume or shoot me an email.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+      <i class="fa fa-coffee w3-padding-64 w3-text-indigo w3-margin-right"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xxlarge">CONTACT</h1>
+    <i class="fa fa-envelope-o w3-margin-left w3-xxlarge"></i>
+    <a href="mailto:abhinav.s1997@yahoo.com" title="abhinav.s1997@yahoo.com" style="left: 55%; right: 45%"><p class="w3-text-white w3-large"> abhinav.s1997@yahoo.com</p>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+</footer>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

@@ -1,2 +1,2 @@
-# OldPersonalWebsite
-This is my old personal website, built using mainly HTML/CSS and then bootstrap with elements in the navigation bar to get animations. 
+# GreenSkies.github.io
+This is my personal website, look around and let me know if you want to get in touch.
